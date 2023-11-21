@@ -3,8 +3,6 @@ import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 import css from './ImageGallery.module.css';
 
 export const ImageGallery = ({ pictures }) => {
-
-    console.log(pictures);
   return (
     <div className={css.imageGallery}>
       {pictures.map(el => (
